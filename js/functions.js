@@ -21,7 +21,7 @@ $('body').on('click','.home', function(){
 	leftcontent += '					<div class="title">Artwork<br/><br/></div>';
 	leftcontent += '					<a class="artwork">';
 	leftcontent += '						<div class="imagebox">';
-	leftcontent += '							<img src="img/art-icon.png"/>';
+	leftcontent += '							<img src="img/Art-icon.png"/>';
 	leftcontent += '						</div>';
 	leftcontent += '					</a>';
 	leftcontent += '				</div>';
@@ -37,7 +37,7 @@ $('body').on('click','.home', function(){
 	leftcontent += '					<div class="title">Webdesign <br/>& Coding</div>';
 	leftcontent += '					<a class="webcoding">';
 	leftcontent += '						<div class="imagebox">';
-	leftcontent += '							<img src="img/coding-icon.png"/>';
+	leftcontent += '							<img src="img/Coding-icon.png"/>';
 	leftcontent += '						</div>';
 	leftcontent += '					</a>';
 	leftcontent += '				</div>';
@@ -670,7 +670,7 @@ $('body').on('click','.contact', function(){
 	leftcontent += '					<div class="title">Artwork<br/><br/></div>';
 	leftcontent += '					<a class="artwork">';
 	leftcontent += '						<div class="imagebox">';
-	leftcontent += '							<img src="img/art-icon.png"/>';
+	leftcontent += '							<img src="img/Art-icon.png"/>';
 	leftcontent += '						</div>';
 	leftcontent += '					</a>';
 	leftcontent += '				</div>';
@@ -686,7 +686,7 @@ $('body').on('click','.contact', function(){
 	leftcontent += '					<div class="title">Webdesign <br/>& Coding</div>';
 	leftcontent += '					<a class="webcoding">';
 	leftcontent += '						<div class="imagebox">';
-	leftcontent += '							<img src="img/coding-icon.png"/>';
+	leftcontent += '							<img src="img/Coding-icon.png"/>';
 	leftcontent += '						</div>';
 	leftcontent += '					</a>';
 	leftcontent += '				</div>';
