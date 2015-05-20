@@ -364,7 +364,7 @@ $('.leftcontent').on('click','.qsorting', function(){
 	rightcontent += '<table>';
 	rightcontent += '<tr><td>When:</td><td>2015</td></tr>';
 	rightcontent += '<tr><td>Tools:</td><td>html, css, jQuery, javascript, cordova, json, bootstrap</td></tr>';
-	rightcontent += '<tr><td colspan="2">The Q-sort method is a form of planning. The participants know by valuing statements. As a result, the priorities of a department become quite clear.<br/><br/>The Q-method is good to use if you want to examine a large number of variables in a small number of people. So you get a detailed picture of how people think about a particular topic. Based on this, you can determine the direction of future research. It is a method of qualitative and quantitative research. For example, it is used to determine the effectiveness of certain policies because the participants really have to think about where they place the items will result in an awareness in which significantly increased the quality of the response. The method consists of a number of statements in racks. The propositions are taken on cards. The participants put the cards on a grid with a scale, see example. The schedule forces the participant to choose which statement they find congruent with their departments culture and policies.</td></tr>';
+	rightcontent += '<tr><td colspan="2">The Q-sort method is a method of questioning participants on the culture of their work environment.  As a result, the priorities of a department become quite clear.<br/><br/>The Q-method is good to use if you want to examine a large number of variables in a small number of people. So you get a detailed picture of how people think about a particular topic. Based on this, you can determine the direction of future research. It is a method of qualitative and quantitative research. For example, it is used to determine the effectiveness of certain policies because the participants really have to think about where they place the items will result in an awareness in which significantly increased the quality of the response. The method consists of a number of statements in racks. The propositions are taken on cards. The participants put the cards on a grid with a scale, see example. The schedule forces the participant to choose which statement they find congruent with their departments culture and policies.</td></tr>';
 	rightcontent += '</table>';
 	rightcontent += '</div>';
 	rightcontent += '<div class="col col-md-7 col-xs-7 col-lg-7">';
@@ -389,11 +389,11 @@ $('.leftcontent').on('click','.gamerealm', function(){
 	rightcontent += '<table>';
 	rightcontent += '<tr><td>When:</td><td>2014</td></tr>';
 	rightcontent += '<tr><td>Tools:</td><td>html, css, jQuery, javascript, cordova, ajax, php, sql</td></tr>';
-	rightcontent += '<tr><td colspan="2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dictum finibus pellentesque. Integer pellentesque molestie velit, et blandit nulla tempus eget. Curabitur maximus pellentesque metus, et elementum erat elementum quis. Etiam nibh massa, pretium sed metus a, venenatis euismod purus. Mauris a rutrum lacus. Morbi nec libero in dui luctus auctor non a libero. Pellentesque ac aliquet odio. Morbi vitae tristique eros. In ut dui tempus, dignissim velit in, suscipit elit. Nam pretium dolor enim, sed viverra nunc consequat ac. Mauris cursus magna eget tempus vulputate. Proin quis tristique felis. Donec sed nibh iaculis, auctor orci in, lacinia tellus. Etiam eu augue nec sem hendrerit semper. Sed id erat urna. In eget quam diam.</td></tr>';
+	rightcontent += '<tr><td colspan="2">Gamerealm is a platform created for gamers and indy game developers. Gamerealm functions as a platform for gamers to find the most popular games on the web while it allows developers to display their work publicly. <br/><br/> This idea was inspired by the demand of game developers to find platforms through which they can display and market their product. Feel free to check out the platform and play a few games while you are at it. </td></tr>';
 	rightcontent += '</table>';
 	rightcontent += '</div>';
 	rightcontent += '<div class="col col-md-7 col-xs-7 col-lg-7">';
-	rightcontent += '	<img src="img/gamerealm.jpg" class="col col-md-12 col-xs-12 col-lg-12"/>';
+	rightcontent += '	<a href="http://gamerealm.eu/" target="_blank"><img src="img/gamerealm.jpg" class="col col-md-12 col-xs-12 col-lg-12"/></a>';
 	rightcontent += '</div>';
 	rightcontent += '</div>';
 	rightcontent += '<div class="col col-md-3 col-xs-0 col-lg-3">';
