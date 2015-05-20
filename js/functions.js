@@ -288,11 +288,11 @@ $('body').on('click','.webcoding', function(){
 	rightcontent += '<table>';
 	rightcontent += '<tr><td>When:</td><td>2014</td></tr>';
 	rightcontent += '<tr><td>Tools:</td><td>html, css, jQuery, javascript, php, sass, sql</td></tr>';
-	rightcontent += '<tr><td colspan="2">This tool was built for the University Medical Center of Utrecht for the "Learning without limits" project. It is a tool which allows us (the producers of educational tools) to estimate how much time is required by the different roles/people in the project. <br/><br/> The E-modulewijzer works on the one hand as a catalog to display the possible features our project supplies. </td></tr>';
+	rightcontent += '<tr><td colspan="2">This tool was built for the University Medical Center of Utrecht for the "Learning without limits" project. It is a tool which allows us (the producers of educational tools) to estimate how much time is required by the different roles/people in the project. <br/><br/> The E-modulewijzer works on the one hand as a catalog to display the possible features our project supplies. On the other hand, it functions as an communication device for the clients to confront them with the financial consequences their product entails as well as an indication to how much time they will need to invest themselves in order to create the content of the e-modules.</td></tr>';
 	rightcontent += '</table>';
 	rightcontent += '</div>';
 	rightcontent += '<div class="col col-md-7 col-xs-7 col-lg-7">';
-	rightcontent += '	<img src="img/emodulewijzer_large.jpg" class="col col-md-12 col-xs-12 col-lg-12"/>';
+	rightcontent += '	<a href="http://e-modulewijzer.nl/"><img src="img/emodulewijzer_large.jpg" class="col col-md-12 col-xs-12 col-lg-12"/></a>';
 	rightcontent += '</div>';
 	rightcontent += '</div>';
 	rightcontent += '<div class="col col-md-3 col-xs-0 col-lg-3">';
@@ -314,11 +314,11 @@ $('.leftcontent').on('click','.emodulewijzer', function(){
 	rightcontent += '<table>';
 	rightcontent += '<tr><td>When:</td><td>2014</td></tr>';
 	rightcontent += '<tr><td>Tools:</td><td>html, css, jQuery, javascript, php, sass, sql</td></tr>';
-	rightcontent += '<tr><td colspan="2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dictum finibus pellentesque. Integer pellentesque molestie velit, et blandit nulla tempus eget. Curabitur maximus pellentesque metus, et elementum erat elementum quis. Etiam nibh massa, pretium sed metus a, venenatis euismod purus. Mauris a rutrum lacus. Morbi nec libero in dui luctus auctor non a libero. Pellentesque ac aliquet odio. Morbi vitae tristique eros. In ut dui tempus, dignissim velit in, suscipit elit. Nam pretium dolor enim, sed viverra nunc consequat ac. Mauris cursus magna eget tempus vulputate. Proin quis tristique felis. Donec sed nibh iaculis, auctor orci in, lacinia tellus. Etiam eu augue nec sem hendrerit semper. Sed id erat urna. In eget quam diam.</td></tr>';
+	rightcontent += '<tr><td colspan="2">This tool was built for the University Medical Center of Utrecht for the "Learning without limits" project. It is a tool which allows us (the producers of educational tools) to estimate how much time is required by the different roles/people in the project. <br/><br/> The E-modulewijzer works on the one hand as a catalog to display the possible features our project supplies. On the other hand, it functions as an communication device for the clients to confront them with the financial consequences their product entails as well as an indication to how much time they will need to invest themselves in order to create the content of the e-modules.</td></tr>';
 	rightcontent += '</table>';
 	rightcontent += '</div>';
 	rightcontent += '<div class="col col-md-7 col-xs-7 col-lg-7">';
-	rightcontent += '	<img src="img/emodulewijzer_large.jpg" class="col col-md-12 col-xs-12 col-lg-12"/>';
+	rightcontent += '	<a href="http://e-modulewijzer.nl/"><img src="img/emodulewijzer_large.jpg" class="col col-md-12 col-xs-12 col-lg-12"/></a>';
 	rightcontent += '</div>';
 	rightcontent += '</div>';
 	rightcontent += '<div class="col col-md-3 col-xs-0 col-lg-3">';
