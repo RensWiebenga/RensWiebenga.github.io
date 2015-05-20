@@ -288,7 +288,7 @@ $('body').on('click','.webcoding', function(){
 	rightcontent += '<table>';
 	rightcontent += '<tr><td>When:</td><td>2014</td></tr>';
 	rightcontent += '<tr><td>Tools:</td><td>html, css, jQuery, javascript, php, sass, sql</td></tr>';
-	rightcontent += '<tr><td colspan="2"></td></tr>';
+	rightcontent += '<tr><td colspan="2">This tool was built for the University Medical Center of Utrecht for the "Learning without limits" project. It is a tool which allows us (the producers of educational tools) to estimate how much time is required by the different roles/people in the project. <br/><br/> The E-modulewijzer works on the one hand as a catalog to display the possible features our project supplies. </td></tr>';
 	rightcontent += '</table>';
 	rightcontent += '</div>';
 	rightcontent += '<div class="col col-md-7 col-xs-7 col-lg-7">';
