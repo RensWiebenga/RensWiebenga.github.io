@@ -288,7 +288,7 @@ $('body').on('click','.webcoding', function(){
 	rightcontent += '<table>';
 	rightcontent += '<tr><td>When:</td><td>2014</td></tr>';
 	rightcontent += '<tr><td>Tools:</td><td>html, css, jQuery, javascript, php, sass, sql</td></tr>';
-	rightcontent += '<tr><td colspan="2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dictum finibus pellentesque. Integer pellentesque molestie velit, et blandit nulla tempus eget. Curabitur maximus pellentesque metus, et elementum erat elementum quis. Etiam nibh massa, pretium sed metus a, venenatis euismod purus. Mauris a rutrum lacus. Morbi nec libero in dui luctus auctor non a libero. Pellentesque ac aliquet odio. Morbi vitae tristique eros. In ut dui tempus, dignissim velit in, suscipit elit. Nam pretium dolor enim, sed viverra nunc consequat ac. Mauris cursus magna eget tempus vulputate. Proin quis tristique felis. Donec sed nibh iaculis, auctor orci in, lacinia tellus. Etiam eu augue nec sem hendrerit semper. Sed id erat urna. In eget quam diam.</td></tr>';
+	rightcontent += '<tr><td colspan="2"></td></tr>';
 	rightcontent += '</table>';
 	rightcontent += '</div>';
 	rightcontent += '<div class="col col-md-7 col-xs-7 col-lg-7">';
