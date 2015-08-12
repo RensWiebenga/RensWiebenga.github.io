@@ -213,7 +213,7 @@ $('body').on('click','.aboutme', function(){
 	rightcontent += '	<div class="box col col-md-10 col-xs-10 col-lg-10 projects webdesigner">';
 	rightcontent += '		<div class="listtitle"><h1>Webdesigner</h1></div>';
 	rightcontent += '			<div class="imageboxsquare">';
-	rightcontent += '				<img src="img/webdesigner.jpg"/>';
+	rightcontent += '				<img src="img/webdesigner.jpg" alt="icon to indicate I work as a web designer and web developer"/>';
 	rightcontent += '			</div>';
 	rightcontent += '		</div>';
 	rightcontent += '	';
@@ -339,11 +339,11 @@ $('.leftcontent').on('click','.vaatrisico', function(){
 	rightcontent += '<table>';
 	rightcontent += '<tr><td>When:</td><td>2014</td></tr>';
 	rightcontent += '<tr><td>Tools:</td><td>html, css, jQuery, javascript, cordova, json</td></tr>';
-	rightcontent += '<tr><td colspan="2">This app was built by myself and one other developer of the IT-department of the University Medical Center of Utrecht. With the new " Vascular Risk app" for all types of patients, healthcare providers can easily calculate the risk of cardiovascular disease. The doctor has to fill in a few details , including age, blood pressure , cholesterol levels and sex. The Vascular Risk app is partly based on the UMC Utrecht SMART study in which more than ten thousand patients with cardiovascular disease had been followed for more than 10 years. It is an extension of the existing Risk table app UMC Utrecht , which already has about 4,000 users . This application , however, was only useful for patients with risk factors , but without any cardiovascular disease.</td></tr>';
+	rightcontent += '<tr><td colspan="2">This application was built by myself and one other developer of the IT-department of the University Medical Center of Utrecht. With the new " Vascular Risk app" for all types of patients, healthcare providers can easily calculate the risk of cardiovascular disease. The doctor has to fill in a few details , including age, blood pressure , cholesterol levels and sex. The Vascular Risk app is partly based on the UMC Utrecht SMART study in which more than ten thousand patients with cardiovascular disease had been followed for more than 10 years. It is an extension of the existing Risk table app UMC Utrecht , which already has about 4,000 users . This application , however, was only useful for patients with risk factors , but without any cardiovascular disease.</td></tr>';
 	rightcontent += '</table>';
 	rightcontent += '</div>';
 	rightcontent += '<div class="col col-md-7 col-xs-7 col-lg-7">';
-	rightcontent += '	<a href="http://www.umcutrecht.nl/nl/Ziekenhuis/Afdelingen/Hart-en-vaatcentrum/Nieuws/-Vaatrisico-app-voorspelt-kans-op-hart-en-vaatzi" target="_blank"><img src="img/vaatrisico.png" class="col col-md-12 col-xs-12 col-lg-12"/></a>';
+	rightcontent += '	<a href="http://www.umcutrecht.nl/nl/Ziekenhuis/Afdelingen/Hart-en-vaatcentrum/Nieuws/-Vaatrisico-app-voorspelt-kans-op-hart-en-vaatzi" target="_blank"><img src="img/vaatrisico.png" alt="iOS and android application developer" class="col col-md-12 col-xs-12 col-lg-12"/></a>';
 	rightcontent += '</div>';
 	rightcontent += '</div>';
 	rightcontent += '<div class="col col-md-3 col-xs-0 col-lg-3">';
@@ -393,7 +393,7 @@ $('.leftcontent').on('click','.gamerealm', function(){
 	rightcontent += '</table>';
 	rightcontent += '</div>';
 	rightcontent += '<div class="col col-md-7 col-xs-7 col-lg-7">';
-	rightcontent += '	<a href="http://gamerealm.eu/" target="_blank"><img src="img/gamerealm.jpg" class="col col-md-12 col-xs-12 col-lg-12"/></a>';
+	rightcontent += '	<a href="http://gamerealm.eu/" target="_blank"><img src="img/gamerealm.jpg" alt="" class="col col-md-12 col-xs-12 col-lg-12"/></a>';
 	rightcontent += '</div>';
 	rightcontent += '</div>';
 	rightcontent += '<div class="col col-md-3 col-xs-0 col-lg-3">';
