@@ -18,6 +18,23 @@ body {
 	color:#333;
 }
 
+h1 {
+	font-weight:normal !important;
+	font-size: inherit !important;
+	margin-top:0px !important;
+	margin-bottom: 0px !important;
+	line-height:1.5 !important;
+	display: inline !important;
+}
+
+h4 {
+	font-weight:normal !important;
+	font-size: 12px !important;
+	margin-top:0px !important;
+	margin-bottom: 0px !important;
+	line-height:1.5 !important;
+}
+
 .submitbutton {
 	width:100%;
 	border-radius: 0;
@@ -202,7 +219,7 @@ input {
 	top:			105px;
 }
 
-.welcometext h1{
+.welcometext h3{
 	float:left;
 	width:140px;
 	margin:0;
@@ -346,7 +363,7 @@ input {
 
 
 
-.rightcontent .title h1{
+.rightcontent .title{
 	font-family: roboto-medium;
 	font-size: 12pt;
 	padding-bottom:20px;

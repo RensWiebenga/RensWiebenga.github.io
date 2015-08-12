@@ -174,16 +174,16 @@ $('body').on('click','.aboutme', function(){
 	leftcontent += '			Currently employed as an e-learning developer at the University Medical Center of Utrecht assigned to the "Learning without limits" project. This project strives to educate medical students and medical professionals in a myriad of care-related topics through the use of digital communication devices. In this project I function as both consultant to e-learning projects and as producer of the functional e-modules.';
 	leftcontent += '		</li>';
 	leftcontent += '		<li>';
-	leftcontent += '			Finished Bachelor of Communication at the Hogeschool Utrecht in Digital Communication (July 2009), specialized in communication and multimedia design. (Nearly) finished the Master programme New Media and Digital Culture (June 2012) with my thesis on the representation of United States law enforcement in the age of smartphones.';
+	leftcontent += '			Finished Bachelor of Communication at the Hogeschool Utrecht in Digital Communication (July 2009), specialized in communication and multimedia design. Finished the Master programme New Media and Digital Culture (June 2012) with my thesis on the representation of United States law enforcement in the age of smartphones.';
 	leftcontent += '		</li>';
 	leftcontent += '		<li>';
-	leftcontent += '			Owner and founder of Rens Wiebenga Design through which I works as webdesigner for several short-term and long-term clients.';
+	leftcontent += '			Owner and founder of Rens Wiebenga Design through which I works as a <h1>freelance webdesigner in Utrecht</h1> for several short-term and long-term clients.';
 	leftcontent += '		</li>';
 	leftcontent += '		<li>';
-	leftcontent += '			Owner and founder of I want one of those memes. The place to be for internet meme based merchandise such as T-shirts, mugs and stickers. This fairly comical website keeps up to date with the latest online viral videos, games and images that have achieved meme-status. Through it, I create my own designs based on the most popular of videos which can be printed and ordered online by clients.';
+	leftcontent += '			Owner and founder of I want one of those memes. The place to be for <h1>internet meme based merchandise</h1> such as T-shirts, mugs and stickers. This fairly comical website keeps up to date with the latest online viral videos, games and images that have achieved meme-status. Through it, I create my own designs based on the most popular of videos which can be printed and ordered online by clients.';
 	leftcontent += '		</li>';
 	leftcontent += '		<li>';
-	leftcontent += '			Recently finished employment at the Universiteit Utrecht as teaching assistant in which I lead two groups of first- and second year students in the subject of History and theory of new media.';
+	leftcontent += '			Recently finished employment at the <h1>Universiteit Utrecht</h1> as teaching assistant in which I lead two groups of first- and second year students in the subject of History and theory of new media.';
 	leftcontent += '		</li>';
 	
 
@@ -197,7 +197,7 @@ $('body').on('click','.aboutme', function(){
 	
 	rightcontent += '<div class="col col-md-6 col-xs-12 col-lg-6 invisiblewhensmall">';
 	rightcontent += '	<div class="box col col-md-10 col-xs-10 col-lg-10 projects developer">';
-	rightcontent += '		<div class="listtitle">Developer</div>';
+	rightcontent += '		<div class="listtitle"><h1>Developer</h1></div>';
 	rightcontent += '			<div class="imageboxsquare">';
 	rightcontent += '				<img src="img/program-clipart-notebook-computer.jpg"/>';
 	rightcontent += '			</div>';
@@ -211,7 +211,7 @@ $('body').on('click','.aboutme', function(){
 	rightcontent += '		</div>';
 	rightcontent += '	';
 	rightcontent += '	<div class="box col col-md-10 col-xs-10 col-lg-10 projects webdesigner">';
-	rightcontent += '		<div class="listtitle">Webdesigner</div>';
+	rightcontent += '		<div class="listtitle"><h1>Webdesigner</h1></div>';
 	rightcontent += '			<div class="imageboxsquare">';
 	rightcontent += '				<img src="img/webdesigner.jpg"/>';
 	rightcontent += '			</div>';
@@ -692,7 +692,7 @@ $('body').on('click','.contact', function(){
 	leftcontent += '				</div>';
 	leftcontent += '				<div class="text">';
 	leftcontent += '					<b>The type of work I do</b><br/>';
-	leftcontent += '					Quisque sagittis lorem vel magna venenatis pellentesque. Proin sed dui felis. Curabitur eleifend ultrices venenatis. Sed dolor nulla, porta a magna eget, tempus vehicula nunc. Suspendisse sagittis nisi nec risus pharetra ultrices. Aenean dictum libero ut suscipit adipiscing.';
+	leftcontent += '					I would like to encourage you to browse through some of the work I have done over the last couple of years. Although some of the recent projects have been in service of the University Medical Center in Utrecht as a <h1>e-learning developer</h1>, there are also <h1>freelance projects</h1> to be found.';
 	leftcontent += '';
 	leftcontent += '				</div>';
 	leftcontent += '			</div>';
