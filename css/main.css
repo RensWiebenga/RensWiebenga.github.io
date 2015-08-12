@@ -301,7 +301,7 @@ input {
   /* Standard syntax */
   height: 100%; }
 
-.rightcontent .title {
+.rightcontent .title h1 {
   font-family: roboto-medium;
   font-size: 12pt;
   padding-bottom: 20px; }
