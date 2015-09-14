@@ -279,7 +279,9 @@ input {
   border: 1px solid #dadada;
   padding: 12px 8px 8px 8px;
   margin-top: 5px;
-  margin-bottom: 10px; }
+  margin-bottom: 10px; 
+  max-width:150px;
+  }
 
 .box .imagebox img {
   width: 90%;
