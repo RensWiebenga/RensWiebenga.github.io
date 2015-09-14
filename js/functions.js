@@ -21,7 +21,7 @@ $('body').on('click','.home', function(){
 	leftcontent += '					<div class="title">Artwork<br/><br/></div>';
 	leftcontent += '					<a class="artwork">';
 	leftcontent += '						<div class="imagebox">';
-	leftcontent += '							<img src="img/art-icon.png"/>';
+	leftcontent += '							<img src="img/Art-icon.png"/>';
 	leftcontent += '						</div>';
 	leftcontent += '					</a>';
 	leftcontent += '				</div>';
@@ -37,7 +37,7 @@ $('body').on('click','.home', function(){
 	leftcontent += '					<div class="title">Webdesign <br/>& Coding</div>';
 	leftcontent += '					<a class="webcoding">';
 	leftcontent += '						<div class="imagebox">';
-	leftcontent += '							<img src="img/coding-icon.png"/>';
+	leftcontent += '							<img src="img/Coding-icon.png"/>';
 	leftcontent += '						</div>';
 	leftcontent += '					</a>';
 	leftcontent += '				</div>';
@@ -174,16 +174,16 @@ $('body').on('click','.aboutme', function(){
 	leftcontent += '			Currently employed as an e-learning developer at the University Medical Center of Utrecht assigned to the "Learning without limits" project. This project strives to educate medical students and medical professionals in a myriad of care-related topics through the use of digital communication devices. In this project I function as both consultant to e-learning projects and as producer of the functional e-modules.';
 	leftcontent += '		</li>';
 	leftcontent += '		<li>';
-	leftcontent += '			Finished Bachelor of Communication at the Hogeschool Utrecht in Digital Communication (July 2009), specialized in communication and multimedia design. (Nearly) finished the Master programme New Media and Digital Culture (June 2012) with my thesis on the representation of United States law enforcement in the age of smartphones.';
+	leftcontent += '			Finished Bachelor of Communication at the Hogeschool Utrecht in Digital Communication (July 2009), specialized in communication and multimedia design. Finished the Master programme New Media and Digital Culture (June 2012) with my thesis on the representation of United States law enforcement in the age of smartphones.';
 	leftcontent += '		</li>';
 	leftcontent += '		<li>';
-	leftcontent += '			Owner and founder of Rens Wiebenga Design through which I works as webdesigner for several short-term and long-term clients.';
+	leftcontent += '			Owner and founder of Rens Wiebenga Design through which I works as a <h1>freelance webdesigner in Utrecht</h1> for several short-term and long-term clients.';
 	leftcontent += '		</li>';
 	leftcontent += '		<li>';
-	leftcontent += '			Owner and founder of I want one of those memes. The place to be for internet meme based merchandise such as T-shirts, mugs and stickers. This fairly comical website keeps up to date with the latest online viral videos, games and images that have achieved meme-status. Through it, I create my own designs based on the most popular of videos which can be printed and ordered online by clients.';
+	leftcontent += '			Owner and founder of I want one of those memes. The place to be for <h1>internet meme based merchandise</h1> such as T-shirts, mugs and stickers. This fairly comical website keeps up to date with the latest online viral videos, games and images that have achieved meme-status. Through it, I create my own designs based on the most popular of videos which can be printed and ordered online by clients.';
 	leftcontent += '		</li>';
 	leftcontent += '		<li>';
-	leftcontent += '			Recently finished employment at the Universiteit Utrecht as teaching assistant in which I lead two groups of first- and second year students in the subject of History and theory of new media.';
+	leftcontent += '			Recently finished employment at the <h1>Universiteit Utrecht</h1> as teaching assistant in which I lead two groups of first- and second year students in the subject of History and theory of new media.';
 	leftcontent += '		</li>';
 	
 
@@ -197,7 +197,7 @@ $('body').on('click','.aboutme', function(){
 	
 	rightcontent += '<div class="col col-md-6 col-xs-12 col-lg-6 invisiblewhensmall">';
 	rightcontent += '	<div class="box col col-md-10 col-xs-10 col-lg-10 projects developer">';
-	rightcontent += '		<div class="listtitle">Developer</div>';
+	rightcontent += '		<div class="listtitle"><h1>Developer</h1></div>';
 	rightcontent += '			<div class="imageboxsquare">';
 	rightcontent += '				<img src="img/program-clipart-notebook-computer.jpg"/>';
 	rightcontent += '			</div>';
@@ -211,9 +211,9 @@ $('body').on('click','.aboutme', function(){
 	rightcontent += '		</div>';
 	rightcontent += '	';
 	rightcontent += '	<div class="box col col-md-10 col-xs-10 col-lg-10 projects webdesigner">';
-	rightcontent += '		<div class="listtitle">Webdesigner</div>';
+	rightcontent += '		<div class="listtitle"><h1>Webdesigner</h1></div>';
 	rightcontent += '			<div class="imageboxsquare">';
-	rightcontent += '				<img src="img/webdesigner.jpg"/>';
+	rightcontent += '				<img src="img/webdesigner.jpg" alt="icon to indicate I work as a web designer and web developer"/>';
 	rightcontent += '			</div>';
 	rightcontent += '		</div>';
 	rightcontent += '	';
@@ -288,11 +288,11 @@ $('body').on('click','.webcoding', function(){
 	rightcontent += '<table>';
 	rightcontent += '<tr><td>When:</td><td>2014</td></tr>';
 	rightcontent += '<tr><td>Tools:</td><td>html, css, jQuery, javascript, php, sass, sql</td></tr>';
-	rightcontent += '<tr><td colspan="2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dictum finibus pellentesque. Integer pellentesque molestie velit, et blandit nulla tempus eget. Curabitur maximus pellentesque metus, et elementum erat elementum quis. Etiam nibh massa, pretium sed metus a, venenatis euismod purus. Mauris a rutrum lacus. Morbi nec libero in dui luctus auctor non a libero. Pellentesque ac aliquet odio. Morbi vitae tristique eros. In ut dui tempus, dignissim velit in, suscipit elit. Nam pretium dolor enim, sed viverra nunc consequat ac. Mauris cursus magna eget tempus vulputate. Proin quis tristique felis. Donec sed nibh iaculis, auctor orci in, lacinia tellus. Etiam eu augue nec sem hendrerit semper. Sed id erat urna. In eget quam diam.</td></tr>';
+	rightcontent += '<tr><td colspan="2">This tool was built for the University Medical Center of Utrecht for the "Learning without limits" project. It is a tool which allows us (the producers of educational tools) to estimate how much time is required by the different roles/people in the project. <br/><br/> The E-modulewijzer works on the one hand as a catalog to display the possible features our project supplies. On the other hand, it functions as an communication device for the clients to confront them with the financial consequences their product entails as well as an indication to how much time they will need to invest themselves in order to create the content of the e-modules.</td></tr>';
 	rightcontent += '</table>';
 	rightcontent += '</div>';
 	rightcontent += '<div class="col col-md-7 col-xs-7 col-lg-7">';
-	rightcontent += '	<img src="img/emodulewijzer_large.jpg" class="col col-md-12 col-xs-12 col-lg-12"/>';
+	rightcontent += '	<a href="http://e-modulewijzer.nl/" target="_blank"><img src="img/emodulewijzer_large.jpg" class="col col-md-12 col-xs-12 col-lg-12"/></a>';
 	rightcontent += '</div>';
 	rightcontent += '</div>';
 	rightcontent += '<div class="col col-md-3 col-xs-0 col-lg-3">';
@@ -314,11 +314,11 @@ $('.leftcontent').on('click','.emodulewijzer', function(){
 	rightcontent += '<table>';
 	rightcontent += '<tr><td>When:</td><td>2014</td></tr>';
 	rightcontent += '<tr><td>Tools:</td><td>html, css, jQuery, javascript, php, sass, sql</td></tr>';
-	rightcontent += '<tr><td colspan="2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dictum finibus pellentesque. Integer pellentesque molestie velit, et blandit nulla tempus eget. Curabitur maximus pellentesque metus, et elementum erat elementum quis. Etiam nibh massa, pretium sed metus a, venenatis euismod purus. Mauris a rutrum lacus. Morbi nec libero in dui luctus auctor non a libero. Pellentesque ac aliquet odio. Morbi vitae tristique eros. In ut dui tempus, dignissim velit in, suscipit elit. Nam pretium dolor enim, sed viverra nunc consequat ac. Mauris cursus magna eget tempus vulputate. Proin quis tristique felis. Donec sed nibh iaculis, auctor orci in, lacinia tellus. Etiam eu augue nec sem hendrerit semper. Sed id erat urna. In eget quam diam.</td></tr>';
+	rightcontent += '<tr><td colspan="2">This tool was built for the University Medical Center of Utrecht for the "Learning without limits" project. It is a tool which allows us (the producers of educational tools) to estimate how much time is required by the different roles/people in the project. <br/><br/> The E-modulewijzer works on the one hand as a catalog to display the possible features our project supplies. On the other hand, it functions as an communication device for the clients to confront them with the financial consequences their product entails as well as an indication to how much time they will need to invest themselves in order to create the content of the e-modules.</td></tr>';
 	rightcontent += '</table>';
 	rightcontent += '</div>';
 	rightcontent += '<div class="col col-md-7 col-xs-7 col-lg-7">';
-	rightcontent += '	<img src="img/emodulewijzer_large.jpg" class="col col-md-12 col-xs-12 col-lg-12"/>';
+	rightcontent += '	<a href="http://e-modulewijzer.nl/" target="_blank"><img src="img/emodulewijzer_large.jpg" class="col col-md-12 col-xs-12 col-lg-12"/></a>';
 	rightcontent += '</div>';
 	rightcontent += '</div>';
 	rightcontent += '<div class="col col-md-3 col-xs-0 col-lg-3">';
@@ -339,11 +339,11 @@ $('.leftcontent').on('click','.vaatrisico', function(){
 	rightcontent += '<table>';
 	rightcontent += '<tr><td>When:</td><td>2014</td></tr>';
 	rightcontent += '<tr><td>Tools:</td><td>html, css, jQuery, javascript, cordova, json</td></tr>';
-	rightcontent += '<tr><td colspan="2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dictum finibus pellentesque. Integer pellentesque molestie velit, et blandit nulla tempus eget. Curabitur maximus pellentesque metus, et elementum erat elementum quis. Etiam nibh massa, pretium sed metus a, venenatis euismod purus. Mauris a rutrum lacus. Morbi nec libero in dui luctus auctor non a libero. Pellentesque ac aliquet odio. Morbi vitae tristique eros. In ut dui tempus, dignissim velit in, suscipit elit. Nam pretium dolor enim, sed viverra nunc consequat ac. Mauris cursus magna eget tempus vulputate. Proin quis tristique felis. Donec sed nibh iaculis, auctor orci in, lacinia tellus. Etiam eu augue nec sem hendrerit semper. Sed id erat urna. In eget quam diam.</td></tr>';
+	rightcontent += '<tr><td colspan="2">This application was built by myself and one other developer of the IT-department of the University Medical Center of Utrecht. With the new " Vascular Risk app" for all types of patients, healthcare providers can easily calculate the risk of cardiovascular disease. The doctor has to fill in a few details , including age, blood pressure , cholesterol levels and sex. The Vascular Risk app is partly based on the UMC Utrecht SMART study in which more than ten thousand patients with cardiovascular disease had been followed for more than 10 years. It is an extension of the existing Risk table app UMC Utrecht , which already has about 4,000 users . This application , however, was only useful for patients with risk factors , but without any cardiovascular disease.</td></tr>';
 	rightcontent += '</table>';
 	rightcontent += '</div>';
 	rightcontent += '<div class="col col-md-7 col-xs-7 col-lg-7">';
-	rightcontent += '	<img src="img/vaatrisico.png" class="col col-md-12 col-xs-12 col-lg-12"/>';
+	rightcontent += '	<a href="http://www.umcutrecht.nl/nl/Ziekenhuis/Afdelingen/Hart-en-vaatcentrum/Nieuws/-Vaatrisico-app-voorspelt-kans-op-hart-en-vaatzi" target="_blank"><img src="img/vaatrisico.png" alt="iOS and android application developer" class="col col-md-12 col-xs-12 col-lg-12"/></a>';
 	rightcontent += '</div>';
 	rightcontent += '</div>';
 	rightcontent += '<div class="col col-md-3 col-xs-0 col-lg-3">';
@@ -364,11 +364,11 @@ $('.leftcontent').on('click','.qsorting', function(){
 	rightcontent += '<table>';
 	rightcontent += '<tr><td>When:</td><td>2015</td></tr>';
 	rightcontent += '<tr><td>Tools:</td><td>html, css, jQuery, javascript, cordova, json, bootstrap</td></tr>';
-	rightcontent += '<tr><td colspan="2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dictum finibus pellentesque. Integer pellentesque molestie velit, et blandit nulla tempus eget. Curabitur maximus pellentesque metus, et elementum erat elementum quis. Etiam nibh massa, pretium sed metus a, venenatis euismod purus. Mauris a rutrum lacus. Morbi nec libero in dui luctus auctor non a libero. Pellentesque ac aliquet odio. Morbi vitae tristique eros. In ut dui tempus, dignissim velit in, suscipit elit. Nam pretium dolor enim, sed viverra nunc consequat ac. Mauris cursus magna eget tempus vulputate. Proin quis tristique felis. Donec sed nibh iaculis, auctor orci in, lacinia tellus. Etiam eu augue nec sem hendrerit semper. Sed id erat urna. In eget quam diam.</td></tr>';
+	rightcontent += '<tr><td colspan="2">The Q-sort method is a method of questioning participants on the culture of their work environment.  As a result, the priorities of a department become quite clear.<br/><br/>The Q-method is good to use if you want to examine a large number of variables in a small number of people. So you get a detailed picture of how people think about a particular topic. Based on this, you can determine the direction of future research. It is a method of qualitative and quantitative research. For example, it is used to determine the effectiveness of certain policies because the participants really have to think about where they place the items will result in an awareness in which significantly increased the quality of the response. The method consists of a number of statements in racks. The propositions are taken on cards. The participants put the cards on a grid with a scale, see example. The schedule forces the participant to choose which statement they find congruent with their departments culture and policies.</td></tr>';
 	rightcontent += '</table>';
 	rightcontent += '</div>';
 	rightcontent += '<div class="col col-md-7 col-xs-7 col-lg-7">';
-	rightcontent += '	<img src="img/qsorting.jpg" class="col col-md-12 col-xs-12 col-lg-12"/>';
+	rightcontent += '	<a href="http://testbak.livetolearn.org/~rens/rating_system/" target="_blank"><img src="img/qsorting.jpg" class="col col-md-12 col-xs-12 col-lg-12"/></a>';
 	rightcontent += '</div>';
 	rightcontent += '</div>';
 	rightcontent += '<div class="col col-md-3 col-xs-0 col-lg-3">';
@@ -389,11 +389,11 @@ $('.leftcontent').on('click','.gamerealm', function(){
 	rightcontent += '<table>';
 	rightcontent += '<tr><td>When:</td><td>2014</td></tr>';
 	rightcontent += '<tr><td>Tools:</td><td>html, css, jQuery, javascript, cordova, ajax, php, sql</td></tr>';
-	rightcontent += '<tr><td colspan="2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dictum finibus pellentesque. Integer pellentesque molestie velit, et blandit nulla tempus eget. Curabitur maximus pellentesque metus, et elementum erat elementum quis. Etiam nibh massa, pretium sed metus a, venenatis euismod purus. Mauris a rutrum lacus. Morbi nec libero in dui luctus auctor non a libero. Pellentesque ac aliquet odio. Morbi vitae tristique eros. In ut dui tempus, dignissim velit in, suscipit elit. Nam pretium dolor enim, sed viverra nunc consequat ac. Mauris cursus magna eget tempus vulputate. Proin quis tristique felis. Donec sed nibh iaculis, auctor orci in, lacinia tellus. Etiam eu augue nec sem hendrerit semper. Sed id erat urna. In eget quam diam.</td></tr>';
+	rightcontent += '<tr><td colspan="2">Gamerealm is a platform created for gamers and indy game developers. Gamerealm functions as a platform for gamers to find the most popular games on the web while it allows developers to display their work publicly. <br/><br/> This idea was inspired by the demand of game developers to find platforms through which they can display and market their product. Feel free to check out the platform and play a few games while you are at it. </td></tr>';
 	rightcontent += '</table>';
 	rightcontent += '</div>';
 	rightcontent += '<div class="col col-md-7 col-xs-7 col-lg-7">';
-	rightcontent += '	<img src="img/gamerealm.jpg" class="col col-md-12 col-xs-12 col-lg-12"/>';
+	rightcontent += '	<a href="http://gamerealm.eu/" target="_blank"><img src="img/gamerealm.jpg" alt="" class="col col-md-12 col-xs-12 col-lg-12"/></a>';
 	rightcontent += '</div>';
 	rightcontent += '</div>';
 	rightcontent += '<div class="col col-md-3 col-xs-0 col-lg-3">';
@@ -670,7 +670,7 @@ $('body').on('click','.contact', function(){
 	leftcontent += '					<div class="title">Artwork<br/><br/></div>';
 	leftcontent += '					<a class="artwork">';
 	leftcontent += '						<div class="imagebox">';
-	leftcontent += '							<img src="img/art-icon.png"/>';
+	leftcontent += '							<img src="img/Art-icon.png"/>';
 	leftcontent += '						</div>';
 	leftcontent += '					</a>';
 	leftcontent += '				</div>';
@@ -686,13 +686,13 @@ $('body').on('click','.contact', function(){
 	leftcontent += '					<div class="title">Webdesign <br/>& Coding</div>';
 	leftcontent += '					<a class="webcoding">';
 	leftcontent += '						<div class="imagebox">';
-	leftcontent += '							<img src="img/coding-icon.png"/>';
+	leftcontent += '							<img src="img/Coding-icon.png"/>';
 	leftcontent += '						</div>';
 	leftcontent += '					</a>';
 	leftcontent += '				</div>';
 	leftcontent += '				<div class="text">';
 	leftcontent += '					<b>The type of work I do</b><br/>';
-	leftcontent += '					Quisque sagittis lorem vel magna venenatis pellentesque. Proin sed dui felis. Curabitur eleifend ultrices venenatis. Sed dolor nulla, porta a magna eget, tempus vehicula nunc. Suspendisse sagittis nisi nec risus pharetra ultrices. Aenean dictum libero ut suscipit adipiscing.';
+	leftcontent += '					I would like to encourage you to browse through some of the work I have done over the last couple of years. Although some of the recent projects have been in service of the University Medical Center in Utrecht as a <h1>e-learning developer</h1>, there are also <h1>freelance projects</h1> to be found.';
 	leftcontent += '';
 	leftcontent += '				</div>';
 	leftcontent += '			</div>';
