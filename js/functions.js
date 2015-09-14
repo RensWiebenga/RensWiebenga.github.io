@@ -143,7 +143,7 @@ $('body').on('click','.aboutme', function(){
 	leftcontent += '	&nbsp;';
 	leftcontent += '</div>';
 	leftcontent += '<div class="col col-md-9 col-xs-0 col-lg-9">';
-	leftcontent += '	<div class="box col col-md-5 col-xs-5 col-lg-5 left me">';
+	leftcontent += '	<div class="box col col-md-3 col-xs-3 col-lg-3 left me">';
 	leftcontent += '		<div class="imageboxsquare">';
 	leftcontent += '			<img src="img/me.jpg">';
 	leftcontent += '		</div>';
