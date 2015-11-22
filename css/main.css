@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+.left {
+	float:left !important;
+}
+
 .no_padding {
 	padding:0 !important;
 }
