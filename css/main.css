@@ -83,15 +83,15 @@ h2 {
 
 /* page 1 */
 
-.page_1_container {
-	background: url('../images/background_page_1.jpg') no-repeat top center;
+.page_home_container {
+	background: url('../images/background_page_home.jpg') no-repeat top center;
 	 -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size:cover;
     background-size: cover;
 }
 
-#page_1 {
+#page_home {
 	
 	overflow:hidden;
 }
@@ -119,7 +119,7 @@ h2 {
 
 /* page 2 */
 
-.page_2_container {
+.page_work_container {
 	margin-top: -1px;
 	/*background: #c2a369;*/
 	 -webkit-background-size: cover;
@@ -128,12 +128,12 @@ h2 {
     background-size: cover;
 }
 
-#page_2 {
+#page_work {
 	padding-top:5%;
 	padding-bottom: 5%;
 }
 
-#page_2 .row {
+#page_work .row {
 	margin-bottom:3.5%;
 }
 
@@ -234,7 +234,7 @@ h2 {
 
 /* page 3 */
 
-#page_3 {
+#page_services {
 	padding-top:5%;
 	padding-bottom: 5%;
 }
@@ -261,14 +261,14 @@ h2 {
 	color:#191919 !important;
 }
 
-/* page_4 */
+/* page_about */
 
-#page_4 {
+#page_about {
 	padding-top:10%;
 }
 
-.page_4_container {
-	background: url('../images/background_page_4.jpg') no-repeat top center;
+.page_about_container {
+	background: url('../images/background_page_about.jpg') no-repeat top center;
 	 -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size:cover;
