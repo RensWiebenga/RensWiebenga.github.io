@@ -103,14 +103,22 @@ h2 {
 .gambit {
 	font-family: 'Montserrat', sans-serif;
 	font-weight:700;
+<<<<<<< HEAD
 	font-size:80px;
+=======
+	font-size:8vh;
+>>>>>>> origin/master
 	text-align: center;
 	margin-top:20%;
 
 }
 
 .introduction {
+<<<<<<< HEAD
 	font-size: 18px;
+=======
+	font-size: 2vh;
+>>>>>>> origin/master
 	text-align:center;
 	font-family: 'Montserrat', sans-serif;
 	font-weight:400;
@@ -208,6 +216,7 @@ h2 {
 .project_content {
 	opacity:0;
 	transition: all 0.4s;
+<<<<<<< HEAD
 	height:30%;
 }
 
@@ -225,6 +234,21 @@ h2 {
 	width: 65%;
 	height: 40%;
     overflow: hidden;
+=======
+}
+
+.project_title {
+	font-size: 1vw;
+	position:absolute;
+	top:15%;
+}
+
+.project_description {
+	font-size: 0.9vw;
+	position:absolute;
+	top:35%;
+	width: 65%;
+>>>>>>> origin/master
 }
 
 .project_year {
@@ -232,7 +256,11 @@ h2 {
 	top:80%;
 	font-family: 'Arvo', serif !important;
 	font-weight: 700;
+<<<<<<< HEAD
 	font-size: 10px;
+=======
+	font-size: 0.7vw;
+>>>>>>> origin/master
 }
 
 .resize_pic {
@@ -393,13 +421,18 @@ input[type="text"] {
 }
 
 .col-md-11, .col-xs-11 {
+<<<<<<< HEAD
 	width:98% !important;
+=======
+	width:99% !important;
+>>>>>>> origin/master
 }
 
 h5 {
 	display:inline-block;
 	margin:0;
 	padding:0;
+<<<<<<< HEAD
 }
 
 @media (max-width: 640px) {
@@ -430,4 +463,6 @@ h5 {
 
 .extra_images img {
 	margin-bottom: 50px;
+=======
+>>>>>>> origin/master
 }
