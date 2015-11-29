@@ -75,10 +75,7 @@ $(function() {
 		if ($('.right_content').height()<$('.left_content').height())
 		{
 			$('.right_content').height($('.left_content').height());
-<<<<<<< HEAD
 			var max_height = $('.main_image').height();
-=======
->>>>>>> origin/master
 		}
 	});
 
@@ -196,7 +193,6 @@ $(function() {
 			};
 			runIt2();
 
-<<<<<<< HEAD
 			function runIt3(max_height) {
 				max_height = $('.main_image').height();
 				if (max_height>200)
@@ -225,28 +221,6 @@ $(function() {
 			};
 			var max_height = $('.main_image').height();
 			runIt3(max_height);
-=======
-			function runIt3() {
-				$('.animated_vertical_line').animate({
-					height: "300px",
-					margin: "0 0 0 0"
-				}, 5000, function() {
-					$('.animated_vertical_line').animate({
-						height: "50px",
-						margin: "250 0 0 0"
-					}, 5000, function() {
-						$('.animated_vertical_line').animate({
-							height: "50px",
-							margin: "0 0 0 0"
-						}, 5000, function() {
-							runIt3();	
-						});
-					});
-				});
-			
-			};
-			runIt3();
->>>>>>> origin/master
 
 			/*var current_height = $('.current_project_container').height();
 			$('.current_project_container').animate({
