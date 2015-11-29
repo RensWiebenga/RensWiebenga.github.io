@@ -103,14 +103,14 @@ h2 {
 .gambit {
 	font-family: 'Montserrat', sans-serif;
 	font-weight:700;
-	font-size:8vh;
+	font-size:80px;
 	text-align: center;
 	margin-top:20%;
 
 }
 
 .introduction {
-	font-size: 2vh;
+	font-size: 18px;
 	text-align:center;
 	font-family: 'Montserrat', sans-serif;
 	font-weight:400;
@@ -208,19 +208,23 @@ h2 {
 .project_content {
 	opacity:0;
 	transition: all 0.4s;
+	height:30%;
 }
 
 .project_title {
-	font-size: 1vw;
+	font-size: 16px;
 	position:absolute;
 	top:15%;
+	width:70%;
 }
 
 .project_description {
-	font-size: 0.9vw;
+	font-size: 12px;
 	position:absolute;
-	top:35%;
+	top:35%;	
 	width: 65%;
+	height: 40%;
+    overflow: hidden;
 }
 
 .project_year {
@@ -228,7 +232,7 @@ h2 {
 	top:80%;
 	font-family: 'Arvo', serif !important;
 	font-weight: 700;
-	font-size: 0.7vw;
+	font-size: 10px;
 }
 
 .resize_pic {
@@ -389,11 +393,41 @@ input[type="text"] {
 }
 
 .col-md-11, .col-xs-11 {
-	width:99% !important;
+	width:98% !important;
 }
 
 h5 {
 	display:inline-block;
 	margin:0;
 	padding:0;
+}
+
+@media (max-width: 640px) {
+	.project_title {
+		font-size: 10px;
+		width:60%;
+	}
+
+	.project_description {
+		font-size: 8px;
+	}
+
+	.project_year {
+		font-size: 7px;
+	}
+
+}
+
+@media (max-width: 1024px) {
+	.gambit {
+		font-size:40px;
+	}
+
+	.introduction {
+		font-size: 14px;
+	}
+}
+
+.extra_images img {
+	margin-bottom: 50px;
 }
