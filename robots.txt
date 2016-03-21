@@ -2,6 +2,7 @@ User-Agent: *
 Disallow: 
 Allow: /index.html
 Allow: /indexnl.html
+Allow: old_portfolio/index.html
 Allow: /javascript/function.js
 Allow: /javascript/portfolio.js
 

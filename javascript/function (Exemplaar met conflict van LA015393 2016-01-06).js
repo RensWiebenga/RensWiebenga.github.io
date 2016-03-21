@@ -92,8 +92,7 @@ $(function() {
 				
 			});
 		});
-		//$('.main_image').attr("src", thisimage);
-		//alert (thisimage);
+		
 	});
 
 
@@ -275,8 +274,9 @@ $(function() {
 			$.ajax(
 			{
 				type: "POST",
-				url: $('#ajax-contact').attr('action'),
+				url: "https://mandrillapp.com/api/1.0/messages/send.json",
 				data: {
+					'key': 'mVIYqoHhRDebIjnSLF8YJA',
 					'message': {
 						'from_email': useremail,
 						'from_name': name,
@@ -306,9 +306,7 @@ $(function() {
 		}
 
 	};
-
-$('#ajax-contact').submit(function(event) {
-	//event.preventDefault();
+$('body').on('click','.submitbutton', function(){
 	sendData();
 });
 	
