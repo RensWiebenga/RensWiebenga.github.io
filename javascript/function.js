@@ -308,7 +308,7 @@ $(function() {
 	};
 
 $('#ajax-contact').submit(function(event) {
-	//event.preventDefault();
+	event.preventDefault();
 	sendData();
 });
 	
