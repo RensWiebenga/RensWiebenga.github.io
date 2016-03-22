@@ -275,9 +275,8 @@ $(function() {
 			$.ajax(
 			{
 				type: "POST",
-				url: "https://mandrillapp.com/api/1.0/messages/send.json",
+				url: $('#ajax-contact').attr('action'),
 				data: {
-					'key': 'mVIYqoHhRDebIjnSLF8YJA',
 					'message': {
 						'from_email': useremail,
 						'from_name': name,
@@ -307,7 +306,9 @@ $(function() {
 		}
 
 	};
-$('body').on('click','.submitbutton', function(){
+
+$('#ajax-contact').submit(function(event) {
+	//event.preventDefault();
 	sendData();
 });
 	
