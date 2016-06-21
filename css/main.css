@@ -209,7 +209,8 @@ h2 {
 }
 
 .current_project_container {
-	height:0;
+	height:0px;
+	display:none;
 	overflow:hidden;
 	margin-bottom: 30px;	
 }
@@ -351,7 +352,6 @@ input[type="text"] {
 
 .current_project_container {
 	padding: 20px;
-	height:100%;
 }
 
 .current_project_height {

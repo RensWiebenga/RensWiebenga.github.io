@@ -84,7 +84,7 @@ $(function() {
 
 		$('.main_image').animate({
 			opacity: "0",
-		}, 500, function() {
+		}, 0, function() {
 			$('.main_image').attr("src", thisimage);
 			$('.main_image').animate({
 				opacity: "1",
@@ -112,17 +112,17 @@ $(function() {
 		$('.project_col').on('click', function(){
 			var this_width = $(this).width();
 			
-			//$(this).remove();
+			
+			
+
+
 			var html = '';
 			var project = $(this).find('.project_box').find('.project_content').find('.project_title').html();
 			
-			//html = $(this).html();
 			
 			var portfolio_id = $(this).attr('id');
-			//alert (portfolio_id);
 			portfolio_id = portfolio_id.replace("project_", ""); 
 			portfolio_id = portfolio_id-1;
-			//alert (portfolio_id);
 			
 
 			html += '<div class="current_project_box col-md-12 col-xs-12">';
@@ -155,20 +155,26 @@ $(function() {
 			html += '	</div>';
 			html += '</div>';
 			
-			//$('.project_container').prepend('<div class="project_col col-md-4 col-xs-4">'+html+'</div>');
 			$('.hovered_pic').removeClass('hovered_pic');
-
-			$('.current_project_container').html(html);
-
-			/*$('.current_project_container').toggle(function(){
-				$(this).animate({'height': '100px'}, 100);
-			}, function(){
-				$(this).animate({'height': '280px'}, 100);
-			});*/
 			
-			function runIt() {
-			  $( ".current_project_container" ).slideToggle( "normal" );
-			  $( ".current_project_container" ).slideToggle( "normal" );
+			$('.current_project_container').html(html)
+			$( ".current_project_box > div" ).css({'opacity':'0'});
+			$( ".current_project_box > div" ).animate({
+				opacity: 1,
+			  }, 500, function() {
+				
+			  });
+
+			if ($( ".current_project_container" ).height()<50)
+			  {
+
+				$( ".current_project_container" ).height("100%");
+				$( ".current_project_container" ).slideToggle( "normal" );
+			  }
+
+			  
+			
+			function runIt() {  
 				
 			}
 			runIt();
