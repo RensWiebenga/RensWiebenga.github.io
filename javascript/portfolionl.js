@@ -47,12 +47,21 @@ var portfolio = {
 	},
 	{
 		id: 6,
-		title: 'Sketchwork',
-		image: 'dragon_in_the_night.jpg',
-		description: 'Ik oefen met dergelijk sketchwork om mijn design skills voor logo en web design op peil te houden.',
-		year: '2010',
-		url: '',
-		extraimage: ['dragon_in_the_night.jpg', 'machanical_lizard.jpg','android.jpg']
+		title: '32S - ThirtySecondS',
+		image: '32s.jpg',
+		description: 'Deze applicatie is mijn eigen versie van het populaire gezelschapsspel "30 seconds". Met deze applicatie heb je alleen een laptop/tablet nodig om het bord te tonen terwijl de quizmaster met behulp van een smartphone de vragen kan verbergen.',
+		year: '2016',
+		url: 'http://32s.nl',
+		extraimage: ['']
+	},
+	{
+		id: 7,
+		title: 'EducateIt',
+		image: 'educateit.png',
+		description: 'Deze applicatie is een customized video carousel gemaakt voor congressen. De videos worden getoond op een iPad met die gemonteerd is op een SegWay.',
+		year: '2016 - 2017',
+		url: 'http://iwantoneofthosememes.com/EducateIt/emulator.html',
+		extraimage: ['']
 	}
 	]
 };
