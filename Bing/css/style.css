@@ -1,0 +1,264 @@
+body {
+  background: #272727;
+  background-image: url("../img/background.jpg");
+  background-size: 1000px 1000px;
+}
+
+.bannerContainer {
+  position: fixed;
+  height: 250px;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  background: #fff;
+  border: 1px solid #000;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 3;
+}
+
+.bannerContainer .redHeart {
+  width: 100px;
+  left: 12%;
+  top: 5%;
+  position: absolute;
+  z-index: 5;
+  opacity: 0;
+  margin-left: -100px;
+  text-align: center;
+}
+
+.bannerContainer .redHeart img {
+  width: 100%;
+}
+
+.bannerContainer .blueHeart {
+  text-align: center;
+  width: 100px;
+  right: 12%;
+  top: 5%;
+  position: absolute;
+  z-index: 5;
+  opacity: 0;
+  margin-right: -100px;
+}
+
+.bannerContainer .blueHeart img {
+  width: 100%;
+}
+
+.block {
+  bottom: 100%;
+}
+
+.redBlock {
+  background: #c11b1b;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  left: 99%;
+  z-index: -1;
+}
+
+.blueBlock {
+  background: #1068ae;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  right: 99%;
+  z-index: -1;
+}
+
+.rens {
+  height: 80%;
+  position: absolute;
+  left: 5%;
+  bottom: -80%;
+}
+
+.rens img {
+  height: 100%;
+}
+
+.bing {
+  height: 80%;
+  position: absolute;
+  right: 5%;
+  bottom: -80%;
+}
+
+.bing img {
+  height: 100%;
+}
+
+.barContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.barContainer .bar {
+  position: relative;
+  padding: 7px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  opacity: 0;
+  height: 40px;
+  width: 3%;
+  background-color: #ba7c17;
+  border-radius: 35px;
+  border: 3px solid #ffe6bf;
+}
+
+.barContainer .bar .barText {
+  font-family: cursive;
+  font-size: 1vw;
+  color: #faebd3;
+  opacity: 0;
+  position: absolute;
+  padding: 0px 10px;
+  width: 100%;
+}
+
+.flag {
+  position: absolute;
+  width: 50%;
+  top: 250%;
+  height: 180px;
+  -webkit-box-shadow: 0px 30px 160px 100px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 30px 160px 100px rgba(0, 0, 0, 0.5);
+}
+
+.flag .flagText {
+  background: #7f00ae;
+  height: 180px;
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  padding: 22px;
+  color: #faebd3;
+  font-weight: 700;
+  text-align: center;
+  font-size: 40px;
+  border-width: 3px 0 3px 0;
+  border-style: solid;
+  border-color: #ffe6bf;
+}
+
+.flag .flagLeft {
+  height: 180px;
+  width: 150px;
+  position: absolute;
+  left: -80px;
+  top: 50px;
+  z-index: 0;
+  border-width: 3px 0 3px 0;
+  border-style: solid;
+  border-color: #e4be82;
+}
+
+.flag .flagRight {
+  height: 180px;
+  width: 150px;
+  position: absolute;
+  right: -80px;
+  top: 50px;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  z-index: 0;
+  border-width: 3px 0 3px 0;
+  border-style: solid;
+  border-color: #e4be82;
+}
+
+.movingMessage {
+  position: absolute;
+  z-index: 2;
+  color: #fff;
+  text-align: center;
+  width: calc(100% - 30px);
+  font-size: 4vw;
+  opacity: 0;
+}
+
+.movingMessage1 {
+  top: 450px;
+  font-size: 18vw;
+  opacity: 1;
+}
+
+.movingMessage2 {
+  top: 1000px;
+}
+
+.movingMessage3 {
+  top: 1500px;
+}
+
+.movingMessage4 {
+  top: 2000px;
+}
+
+.movingMessage5 {
+  top: 2500px;
+}
+
+.movingMessage6 {
+  top: 3000px;
+}
+
+.movingMessage7 {
+  top: 3500px;
+}
+
+.movingMessage8 {
+  top: 4000px;
+}
+
+.movingMessage9 {
+  top: 4500px;
+}
+
+.movingMessage10 {
+  top: 5000px;
+}
+
+.movingMessage11 {
+  top: 5500px;
+}
+
+.movingMessage12 {
+  top: 6500px;
+}
+
+.movingMessage13 {
+  top: 7000px;
+}
+
+.movingMessage14 {
+  top: 7500px;
+}
+/*# sourceMappingURL=style.css.map */
