@@ -18,7 +18,7 @@ body {
     top:0px;
     width: 100%;
     background:#fff;
-    border:1px solid #000;
+    border-bottom:3px solid #ffe6bf;
     overflow:hidden;
     display: flex;
     justify-content: center;
@@ -47,6 +47,19 @@ body {
         margin-right: -100px;
         img {
             width:100%;
+        }
+    }
+    .purpleHeart {
+        text-align: center;
+        width: 100%;
+
+        top:35%;
+        position: absolute;
+        z-index: 5;
+        opacity: 1;
+        margin-right: 0;
+        img {
+            width:230px;
         }
     }
 }
@@ -129,9 +142,9 @@ body {
 
 .flag {
     position:absolute;
-    width:50%;
-    
-    top:250%;
+    width:70%;
+    left:15%;
+    top:6500px;
     height:180px;
     -moz-box-shadow:    0px 30px 160px 100px rgba(0,0,0,0.5);
     -webkit-box-shadow: 0px 30px 160px 100px rgba(0,0,0,0.5);
@@ -147,11 +160,14 @@ body {
         color:#faebd3;
         font-weight:700;
         text-align: center;
-        font-size:40px;
+        font-size:5vw;
         //text-shadow: 2px 0 0 #fff0d9, -2px 0 0 #ffe6bf, 0 2px 0 #ffe6bf, 0 -2px 0 #ffe6bf, 1px 1px #ffe6bf, -1px -1px 0 #ffe6bf, 1px -1px 0 #ffe6bf, -1px 1px 0 #ffe6bf;
         border-width: 3px 0 3px 0;
         border-style:solid;
         border-color:#ffe6bf;
+        align-items: center;
+        justify-content: center;
+        display: flex;
     }
 
     
