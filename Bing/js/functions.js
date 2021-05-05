@@ -1,8 +1,8 @@
 
 $(document).ready(function(){
-    $('body').height(10000);
+    $('body').height(7000);
     var windowHeight = $('body').height();
-    var amountFrames = 1000;
+    var amountFrames = 700;
     var ratioFrames = windowHeight / amountFrames;
     var currentFrame = 0;
     
@@ -45,6 +45,10 @@ $(document).ready(function(){
         animate($('.blueHeart'), "top",currentFrame, 380, 440, 5, 35);
         animate($('.blueHeart img'), "width",currentFrame, 470, 500, 100, 0);
         
+        animate($('.purpleHeart'), "opacity",currentFrame, 490, 590, 0, 100);
+        animate($('.purpleHeart'), "top",currentFrame, 490, 590, 35, 8);
+        
+        
 
         animate($('.movingMessage2'), "opacity",currentFrame, 40, 60, 0, 100);
         animate($('.movingMessage3'), "opacity",currentFrame, 90, 110, 0, 100);
@@ -80,8 +84,7 @@ $(document).ready(function(){
         // animate($('.barText4'), "margin-left",currentFrame, 600, 620, -100, 0);
         // animate($('.barText5'), "margin-left",currentFrame, 700, 720, 100, 0);
 
-        animate($('.flag'), "top",currentFrame, 740, 800, 250, 30);
-        animate($('.flagText span'), "opacity",currentFrame, 830, 900, 0, 100);
+        
 
         
     });
